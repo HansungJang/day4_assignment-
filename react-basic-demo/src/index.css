@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  flex-wrap: wrap; /*화면크기 보다 크면 줄바꿈 */
+  justify-content: center;
+  background-color: #373b69;
+}
+/*영화 이미지 영역*/
+.movie-container {
+  margin: 16px;
+  width: 250 px;
+  /*이미지 경계 */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/*영화 이미지, 제목 (가로)크기 제한*/
+.movie-container img,
+h4 {
+  width: 200px;
+}
+
+.movie-info {
+  font-size: 1.2rem;
+}
+
+.movie-info h4 {
+  /*제목 정열 일정하게 맞추기 위한 값*/
+  height: 43px;
+}
+
+.movie-info span {
+}
